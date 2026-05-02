@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <!-- Ícone de caveira/vírus -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☠️"
+        android:textSize="80sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Título principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚠ ATENÇÃO ⚠"
+        android:textColor="#FF0000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Mensagem de hack -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEU CELULAR FOI\nHACKEADO!"
+        android:textColor="#FF3333"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todos os seus dados estão sendo\ntransferidos para servidores remotos..."
+        android:textColor="#FF6666"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Barra de "progresso" falso -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[████████░░] 82% coletado"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Texto reiniciando em: -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REINICIANDO EM:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Contagem regressiva -->
+    <TextView
+        android:id="@+id/countdownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textColor="#FF0000"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Texto de aviso -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NÃO DESLIGUE O CELULAR\nO DANO SERÁ PERMANENTE"
+        android:textColor="#FF6600"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Botão secreto pra parar (texto bem pequeno) -->
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:text="ok"
+        android:textSize="8sp"
+        android:textColor="#111111"
+        android:backgroundTint="#111111"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
